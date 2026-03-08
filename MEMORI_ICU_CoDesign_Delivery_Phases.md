@@ -57,6 +57,9 @@ Prepare the organisation so co-design work is credible, relevant, and supported 
 **Purpose**  
 Understand how infection detection currently works in ICU and where AI risk signals could add value.
 
+> **Pre-co-design principle:** focus on situational awareness, not solution design.  
+> First understand what already exists so the team avoids proposing duplicate workflows or tools.
+
 **What you will be doing**
 - Conduct short discovery interviews with ICU clinicians (consultants, registrars, nurses).
 - Map the current infection detection and escalation pathway.
@@ -72,6 +75,103 @@ Understand how infection detection currently works in ICU and where AI risk sign
 - ✅ Current-state ICU infection detection workflow map
 - ✅ Identified opportunity areas for decision support
 - ✅ Summary of clinician insights and pain points
+
+#### Phase 1 Discovery Workplan (Pre-Co-Design)
+
+##### Step 1 — System Landscape Mapping *(critical first step)*
+Map the current technical environment before discussing new workflow concepts.
+
+Typical ICU digital ecosystem may include:
+- Bedside monitoring (e.g., Philips IntelliVue / ICCA)
+- Hospital EPR (e.g., Cerner / Epic / Sunrise)
+- Laboratory systems
+- Radiology systems
+- Observation/early warning systems
+- Nurse documentation systems
+
+Clarify:
+- Where clinicians actually look for patient data
+- Which screens are used during ward rounds
+- Which dashboards already exist
+
+Who to ask:
+- Digital team
+- ICU informatics lead
+- Clinical systems team
+
+This can usually be completed in one short call.
+
+**Output:** simple system map, for example:
+
+```text
+Bedside monitors (Philips)
+        ↓
+ICU monitoring system
+        ↓
+Hospital EPR
+        ↓
+Clinicians view patient summary
+```
+
+##### Step 2 — Quick “Show Me” System Walkthrough
+Request a practical walkthrough of how clinicians currently view patient information in ICU.
+
+Suggested ask:
+> “Could someone show me how clinicians currently view patient information in ICU?”
+
+Format:
+- Informal screen walkthrough
+- ~20 minutes
+- Ideally with ICU and/or digital representative
+
+Observe:
+- Where data appears
+- Existing dashboards
+- How alerts are presented
+- How clinicians navigate across systems
+
+##### Step 3 — Workflow Shadowing *(if possible)*
+Even 30 minutes of direct observation is valuable.
+
+Examples:
+- Ward round
+- Nurse review
+- Morning board round
+
+Watch for:
+- Which screens remain open
+- How frequently systems are checked
+- Where decisions are actually made
+
+##### Step 4 — Micro Discovery Interviews (10–15 minutes)
+Use brief conversations rather than formal interviews.
+
+Core questions:
+1. Where do you usually check patient data first?
+2. What systems do you look at most during a shift?
+3. How do you usually realise a patient might be developing an infection?
+4. Are there already alerts you rely on?
+
+##### Step 5 — Clinical Information Flow Map
+Synthesize findings into a practical information flow map.
+
+Example:
+
+```text
+Bedside monitor (Philips)
+        ↓
+Vital signs data
+        ↓
+Visible in ICU system
+        ↓
+Also feeds into hospital EPR
+        ↓
+Clinicians review during ward rounds
+```
+
+Then identify:
+- Where clinicians actually interact with systems
+- Where MEMORI risk information could realistically surface
 
 ---
 
