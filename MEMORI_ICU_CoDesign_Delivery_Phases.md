@@ -1,50 +1,56 @@
 # MEMORI ICU Co-Design Project
-## Delivery Phases (Tidy Version)
+## Delivery Phases
 
 > **Current status:** **Phase 0–1 (active)**  
-> **Immediate CDL focus:** stakeholder engagement, discovery interviews, workflow mapping, and validating the clinical problem.
+> **Immediate CDL focus:** stakeholder engagement, system understanding, discovery interviews, workflow mapping, and validation of the clinical problem.
 
 ---
 
-## At-a-Glance Process Flow (Chevron Style)
+## Executive Overview
 
-`Phase 0` ➤ `Phase 1` ➤ `Phase 2` ➤ `Phase 3` ➤ `Phase 4`
+This phased plan outlines how MEMORI will move from **organisational preparation** to **pilot readiness** in ICU settings. The current work is concentrated on building the right clinical and organisational foundation before formal co-design begins.
 
-- 🟣 **Phase 0:** Organisational Readiness  
-- 🔵 **Phase 1:** Discovery & Context Mapping  
-- 🟢 **Phase 2:** Co-Design Workshops  
-- 🟠 **Phase 3:** Workflow Validation & Mock-Ups  
-- 🔴 **Phase 4:** Pilot Readiness
+### Phase Sequence
+
+`Phase 0` → `Phase 1` → `Phase 2` → `Phase 3` → `Phase 4`
+
+| Phase | Title | Primary Outcome |
+|---|---|---|
+| **0** | Organisational Readiness (CDL Preparation) | Stakeholders aligned and discovery approved |
+| **1** | Discovery & Context Mapping | Baseline understanding of ICU workflows and systems |
+| **2** | Co-Design Workshops | Clinically agreed workflow and alert concepts |
+| **3** | Workflow Validation & Mock-Ups | Usability-tested and refined workflow design |
+| **4** | Pilot Readiness | Pilot-ready specification, governance, and evaluation plan |
 
 ---
 
-## Visual Flow Map
+## Visual Process Flow
 
 ```mermaid
 flowchart LR
-    A[🟣 Phase 0<br/>Organisational Readiness] -->
-    B[🔵 Phase 1<br/>Discovery & Context Mapping] -->
-    C[🟢 Phase 2<br/>Co-Design Workshops] -->
-    D[🟠 Phase 3<br/>Workflow Validation & Mock-Ups] -->
-    E[🔴 Phase 4<br/>Pilot Readiness]
+    A[Phase 0<br/>Organisational Readiness] -->
+    B[Phase 1<br/>Discovery & Context Mapping] -->
+    C[Phase 2<br/>Co-Design Workshops] -->
+    D[Phase 3<br/>Workflow Validation & Mock-Ups] -->
+    E[Phase 4<br/>Pilot Readiness]
 ```
 
 ---
 
 ## Phase-by-Phase Plan
 
-### 🟣 Phase 0 — Organisational Readiness (CDL Preparation)
+### Phase 0 — Organisational Readiness (CDL Preparation)
 **Purpose**  
-Prepare the organisation so co-design work is credible, relevant, and supported by key stakeholders.
+Prepare the organisation so co-design activity is credible, relevant, and supported by key stakeholders.
 
 **What you will be doing**
-- Map stakeholders across ICU, infection control, digital, and research teams.
+- Map stakeholders across ICU, infection prevention and control, digital, and research teams.
 - Identify clinical champions (e.g., ICU consultant, infection lead).
-- Engage ICU leadership early (clinical director, matrons).
-- Explain project purpose and set expectations.
+- Engage ICU leadership early (e.g., clinical director, matrons).
+- Explain project scope, purpose, and realistic expectations.
 - Align with Trust priorities (AI governance, digital innovation, ICU improvement).
 - Clarify local governance requirements (innovation, research, digital approvals).
-- Assess organisational readiness for participation.
+- Assess local readiness for participation in discovery and co-design.
 
 **Outputs**
 - ✅ Confirmed stakeholder map
@@ -53,56 +59,62 @@ Prepare the organisation so co-design work is credible, relevant, and supported 
 
 ---
 
-### 🔵 Phase 1 — Discovery and Context Mapping
+### Phase 1 — Discovery and Context Mapping
 **Purpose**  
-Understand how infection detection currently works in ICU and where AI risk signals could add value.
+Understand the ICU clinical and technical environment, how infection detection currently works, and where MEMORI risk signals could add practical value.
 
 **What you will be doing**
 - Conduct short discovery interviews with ICU clinicians (consultants, registrars, nurses).
+- Understand the current ICU system landscape, including:
+  - Bedside monitoring systems (e.g., Philips)
+  - EPR / core clinical systems
+  - Where clinicians currently view key patient information
+  - How alerts and monitoring data are surfaced in daily practice
+- Request short system walkthroughs / “show me” sessions with digital or ICU teams.
 - Map the current infection detection and escalation pathway.
 - Identify:
   - Key decision points
   - Delays in recognising infection
-  - Information sources clinicians currently rely on
-- Understand the existing alert and monitoring environment.
-- Identify potential workflow friction or cognitive burden.
-- Document current practice *before* introducing new system concepts.
+  - Information sources clinicians rely on today
+- Assess current alert burden, workflow friction, and cognitive load.
+- Document current practice before introducing new concepts.
 
 **Outputs**
 - ✅ Current-state ICU infection detection workflow map
+- ✅ High-level ICU system/information flow map
 - ✅ Identified opportunity areas for decision support
 - ✅ Summary of clinician insights and pain points
 
 ---
 
-### 🟢 Phase 2 — Co-Design Workshops
+### Phase 2 — Co-Design Workshops
 **Purpose**  
-Work with clinicians to design how MEMORI infection risk signals should be presented and used in ICU workflows.
+Work directly with clinicians to design how MEMORI infection risk signals should be presented and used within ICU workflows.
 
 **What you will be doing**
-- Facilitate structured clinician workshops.
+- Facilitate structured multi-disciplinary clinician workshops.
 - Explore where MEMORI alerts should appear in workflow.
-- Discuss:
+- Co-design decisions around:
   - Timing of alerts
   - Interpretability of risk scores
-  - Escalation expectations
-- Test different alert and interface concepts.
+  - Escalation expectations and responsibilities
+- Test alternative alert and interface concepts.
 - Ensure alignment with existing ICU escalation processes.
-- Capture clinician feedback and design preferences.
+- Capture and synthesise clinician feedback and preferences.
 
 **Outputs**
 - ✅ Co-designed workflow concepts
 - ✅ Agreed clinical use cases
-- ✅ Initial interface/alert design concepts
+- ✅ Initial interface and alert design concepts
 
 ---
 
-### 🟠 Phase 3 — Workflow Validation and Mock-Ups
+### Phase 3 — Workflow Validation and Mock-Ups
 **Purpose**  
 Validate proposed workflows and test usability before technical integration.
 
 **What you will be doing**
-- Develop UI mock-ups and workflow scenarios.
+- Develop UI mock-ups and representative workflow scenarios.
 - Run usability review sessions with clinicians.
 - Test whether alerts are:
   - Interpretable
@@ -118,37 +130,38 @@ Validate proposed workflows and test usability before technical integration.
 
 ---
 
-### 🔴 Phase 4 — Pilot Readiness
+### Phase 4 — Pilot Readiness
 **Purpose**  
-Prepare LUHFT and partners for a potential future feasibility pilot.
+Prepare LUHFT and project partners for a potential future feasibility pilot.
 
 **What you will be doing**
-- Document the final clinical workflow specification.
+- Finalise the clinical workflow specification.
 - Support development of:
   - Pilot protocol
   - Governance approach
   - Evaluation metrics
-- Align with research teams and potential NIHR funding pathways.
+- Align with research teams and NIHR feasibility funding pathways.
 - Define data requirements and technical integration considerations.
-- Prepare clinical training and adoption strategy.
+- Prepare a clinical training and adoption approach.
 
 **Outputs**
 - ✅ Pilot-ready workflow design
 - ✅ Governance and safety framework
-- ✅ Evidence/materials supporting NIHR feasibility funding
+- ✅ Evidence pack supporting NIHR feasibility funding
 
 ---
 
 ## Current Position and Immediate Next Steps
 
-### 📍 Where the project is now
-**Current phase:** **0–1**
+### Where the project is now
+- **Current phase:** **0–1 (active)**
 
-### 🎯 Immediate CDL priorities
-1. Stakeholder engagement  
-2. Discovery interviews  
-3. Workflow mapping  
-4. Validation of the clinical problem
+### Immediate CDL priorities
+1. Stakeholder engagement
+2. System landscape understanding
+3. Short discovery interviews
+4. Workflow mapping
+5. Validation of the clinical problem
 
-### 🚦 Gate to move forward
-Proceed to **formal co-design workshops (Phase 2)** only after these Phase 0–1 priorities are completed and agreed.
+### Decision gate to move into Phase 2
+Proceed to **formal co-design workshops** only once Phase 0–1 outputs are complete, reviewed, and agreed by key clinical and organisational stakeholders.
