@@ -147,3 +147,23 @@ Training sessions, quick reference guides, and ward champions will support staff
 AI-enabled tools such as MEMORI support the ambitions of the NHS Long Term Plan by improving patient safety, supporting workforce wellbeing, and enhancing system efficiency.
 
 Evaluation of innovations like MEMORI combines clinical feedback, operational metrics, and real-world outcomes to understand how digital tools can support safer, more effective care.
+
+---
+
+## 5) Staff FAQ — NEWS2 and MEMORI at a Glance
+
+Use this quick comparison when discussing how MEMORI complements (but does not replace) NEWS2 in day-to-day care.
+
+| **Topic** | **NEWS2** | **MEMORI** |
+|---|---|---|
+| **Purpose** | Detects physiological deterioration. | Highlights infection risk earlier. |
+| **What it uses** | Vital signs such as respiratory rate, heart rate, blood pressure, and oxygen saturation. | Multiple clinical data sources including observations, blood test results, medications, and clinical trends over time. |
+| **What it is designed to detect** | Acute physiological deterioration. | Patterns associated with infection risk. |
+| **Timing** | Usually reflects deterioration once it becomes physiologically visible. | May identify infection risk before physiological deterioration becomes visible. |
+| **Can the scores differ?** | A high NEWS2 score may be driven by causes unrelated to infection. | MEMORI is specific to infection risk, so a higher NEWS2 score does not necessarily mean a higher MEMORI score. |
+| **If scores do not align** | Use clinical judgement and discuss specific concerns with the nurse in charge or a senior clinician. | Use clinical judgement and discuss specific concerns with the nurse in charge or a senior clinician. |
+
+### Quick takeaway
+- **NEWS2** supports recognition of overall physiological deterioration.
+- **MEMORI** adds an earlier infection-risk lens.
+- They should be used **together** with clinical judgement and Trust escalation pathways.
