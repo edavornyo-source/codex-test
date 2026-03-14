@@ -164,12 +164,13 @@ flowchart TD
 - Avoid pop-up alert burden.
 - Keep click paths short.
 - Maintain role relevance across nurses, doctors, and therapists.
+- Co-design synthesis update: therapists also identified **The Brain** as a useful MEMORI placement surface.
 
 ```mermaid
 graph LR
     N[Nurses] --> B[The Brain / Flowsheets / Summary]
     D[Doctors] --> L[Ward list / Sidebar / Summary / Flowsheets]
-    T[Therapists] --> W[Ward board + Flowsheets]
+    T[Therapists] --> W[Ward board + The Brain + Flowsheets]
     B --> M[MEMORI signal]
     L --> M
     W --> M
